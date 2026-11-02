@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DOM Practice Page</title>
+</head>
+<body>
+<header id="site-header" class="top">
+<h1 id="main-title">DOM Practice Page</h1>
+<nav>
+<ul id="menu">
+<li class="menu-item"><a href="#home">Home</a></li>
+<li class="menu-item active"><a href="#about">About</a></li>
+<li class="menu-item"><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="products" data-category="store">
+<h2>Products</h2>
+<div class="card" data-id="1"><h3>Laptop</h3><p class="price">$900</p></div>
+<div class="card" data-id="2"><h3>Phone</h3><p class="price">$500</p></div>
+<div class="card" data-id="3"><h3>Tablet</h3><p class="price">$300</p></div>
+</section>
+<form id="signup">
+<input type="text" name="username" placeholder="Username">
+<input type="email" name="email" placeholder="Email">
+<button type="submit" id="submit-btn">Register</button>
+</form>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
